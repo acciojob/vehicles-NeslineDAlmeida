@@ -51,6 +51,12 @@ public class Car extends Vehicle {
         return isManual;
     }
 
-
+    public int getCurrentGear() {
+        return currentGear;
     }
+
+    public int getSeats() {
+        return seats;
+    }
+}
 
